@@ -61,5 +61,7 @@ void tampilkanKeliling(LayangLayang &L, BelahKetupat &B)
 
 int main()
 {
+    LayangLayang ObjectLayang;
+    BelahKetupat ObjectBelah;
     return 0;
 }
