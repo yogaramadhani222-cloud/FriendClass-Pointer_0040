@@ -16,6 +16,11 @@ public:
         cout << "sisi a: "; cin >> a;
         cout << "sisi b: "; cin >> b;
     }
+
+    double hitungluas()
+    {
+        return 0.5 * d1 * d2;
+    }
 };
 
 int main()
