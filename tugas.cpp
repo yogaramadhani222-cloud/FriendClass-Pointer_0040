@@ -49,6 +49,14 @@ public:
     friend void tampilkanKeliling(LayangLayang &, BelahKetupat &);
 };
 
+void tampilkanKeliling(LayangLayang &L, BelahKetupat &B)
+{
+    double kelilingL = 2 * (L.a + L.b);
+
+    cout << "\n--- Keliling ---" << endl;
+    cout << "Keliling Layang-layang: " << kelilingL << endl;
+}
+
 int main()
 {
     return 0;
