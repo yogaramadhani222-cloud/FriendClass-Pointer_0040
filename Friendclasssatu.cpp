@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+class siswa;
 class orang
 {
 private:
@@ -9,6 +10,7 @@ private:
 
 public:
     void setName(string pNama);
+    friend class siswa;
 };
 
 class siswa
@@ -29,7 +31,6 @@ void siswa::setId(int pId)
     id = pId;
 }
 
-int main()
-{
+int main(){
     return 0;
 }
