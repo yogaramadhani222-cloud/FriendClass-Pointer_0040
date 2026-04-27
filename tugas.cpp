@@ -52,9 +52,11 @@ public:
 void tampilkanKeliling(LayangLayang &L, BelahKetupat &B)
 {
     double kelilingL = 2 * (L.a + L.b);
+    double kelilingB = 4 * B.s;
 
     cout << "\n--- Keliling ---" << endl;
     cout << "Keliling Layang-layang: " << kelilingL << endl;
+    cout << "Keliling Belah Ketupat: " << kelilingB << endl;
 }
 
 int main()
