@@ -27,8 +27,17 @@ public:
 class BelahKetupat
 {
 private:
-    double d1, d2, s;
+    double d1, d2; 
+    double s;
+
 public:
+    void inputData()
+    {
+        cout << "\nInput Belah Ketupat" << endl;
+        cout << "diagonal 1: "; cin >> d1;
+        cout << "diagonal 2: "; cin >> d2;
+        cout << "sisi: "; cin >> s;
+    }
 };
 
 int main()
