@@ -70,5 +70,8 @@ int main()
     cout << "\n--- Hasil Luas ---" << endl;
     cout << "Luas Layang-layang: " << ObjectLayang.hitungluas() << endl;
     cout << "Luas Belah Ketupat: " << ObjectBelah.hitungluas() << endl;
+
+    tampilkanKeliling(ObjectLayang, ObjectBelah);
+
     return 0;
 }
