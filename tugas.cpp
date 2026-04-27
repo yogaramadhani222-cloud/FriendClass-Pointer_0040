@@ -68,5 +68,6 @@ int main()
     ObjectBelah.inputData();
 
     cout << "\n--- Hasil Luas ---" << endl;
+    cout << "Luas Layang-layang: " << ObjectLayang.hitungluas() << endl;
     return 0;
 }
