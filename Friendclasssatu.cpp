@@ -20,8 +20,13 @@ private:
 
 public:
     void setId(int pId);
+    void displayAll(orang &a);
 };
 
+void siswa::displayAll(orang &a)
+{
+    cout << "id: " << endl << a.nama;
+}
 void orang::setName(string pNama)
 {
     nama = pNama;
@@ -31,6 +36,7 @@ void siswa::setId(int pId)
     id = pId;
 }
 
-int main(){
+int main()
+{
     return 0;
 }
