@@ -22,6 +22,8 @@ public:
     {
         return 0.5 * d1 * d2;
     }
+
+    friend void tampilkanKeliling(LayangLayang &, BelahKetupat &);
 };
 
 class BelahKetupat
@@ -37,6 +39,11 @@ public:
         cout << "diagonal 1: "; cin >> d1;
         cout << "diagonal 2: "; cin >> d2;
         cout << "sisi: "; cin >> s;
+    }
+
+    double hitungluas()
+    {
+        return 0.5 * d1 * d2;
     }
 };
 
