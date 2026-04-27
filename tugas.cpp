@@ -3,6 +3,7 @@
 
 using namespace std;
 
+class BelahKetupat;
 class LayangLayang
 {
 private:
@@ -21,6 +22,13 @@ public:
     {
         return 0.5 * d1 * d2;
     }
+};
+
+class BelahKetupat
+{
+private:
+    double d1, d2, s;
+public:
 };
 
 int main()
