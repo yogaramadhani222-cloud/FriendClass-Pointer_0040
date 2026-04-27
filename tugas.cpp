@@ -66,5 +66,7 @@ int main()
 
     ObjectLayang.inputData();
     ObjectBelah.inputData();
+
+    cout << "\n--- Hasil Luas ---" << endl;
     return 0;
 }
